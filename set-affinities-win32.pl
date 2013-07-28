@@ -1,7 +1,7 @@
 #!/usr/bin/env perl -w
-# set-affinities.pl --- Set CPU affinity on a list of programs
+# set-affinities-win32.pl --- Set CPU affinity on a list of programs
 #
-# Time-stamp: <2013-07-28 05:26:21>
+# Time-stamp: <2013-07-28 06:00:25>
 use Win32::Process::List;
 use Sys::CpuAffinity;
 use strict;
